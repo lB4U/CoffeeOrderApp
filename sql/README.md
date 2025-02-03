@@ -94,8 +94,8 @@ Use the following script to populate the tables with initial data.
 ```sql
 -- Insert sample users
 INSERT INTO users (username, password, role) VALUES
-('admin', 'admin', 'ADMIN'),
-('cashier', 'cashier', 'CASHIER');
+('admin', 'admin123', 'ADMIN'),
+('cashier', 'cashier123', 'CASHIER');
 
 -- Insert sample products
 INSERT INTO products (name, image_name, price, stock, category) VALUES
@@ -176,7 +176,7 @@ INSERT INTO discount_codes (code, discount_percent, active) VALUES
 
 ---
 
-## *9. Notes**
+## **9. Notes **
 
 - Use **phpMyAdmin**, **MySQL Workbench**, or any preferred MySQL GUI to manage the database visually.
 - For production, ensure proper security measures, such as hashing passwords.
