@@ -118,8 +118,24 @@ INSERT INTO discount_codes (code, discount_percent, active) VALUES
 ```
 
 ---
+## **5. Setting Up the Project in NetBeans**
 
-## **5. Connecting the Application to the Database**
+### **Requirements:**
+1. **JavaFX SDK**:
+   - Download the SDK from [Gluon JavaFX](https://gluonhq.com/products/javafx/).
+   - Extract it to a folder.
+   - Add the `lib` folder to your NetBeans project:
+     - **Project Properties → Libraries → Add Library → JavaFX SDK → Add Folder**.
+
+2. **MySQL Connector/J**:
+   - Download the MySQL Connector/J from [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/).
+   - Select the **Platform Independent** version.
+   - Extract the `.zip` file and locate the `.jar` file.
+   - Add the `.jar` file to your NetBeans project:
+     - **Project Properties → Libraries → Add JAR/Folder → Select the `.jar` file**.
+
+---
+## **6. Connecting the Application to the Database**
 
 1. Open the `CoffeeOrderApp.java` file.
 2. Locate the `initDatabase()` method and update the following variables to match your local environment:
@@ -131,7 +147,7 @@ INSERT INTO discount_codes (code, discount_percent, active) VALUES
 
 ---
 
-## **6. Verify the Setup**
+## **7. Verify the Setup**
 
 1. After creating the database and inserting the data, use a MySQL client or query tool to verify the tables and data:
    ```sql
@@ -146,7 +162,7 @@ INSERT INTO discount_codes (code, discount_percent, active) VALUES
 
 ---
 
-## **7. Troubleshooting**
+## **8. Troubleshooting**
 
 - **Issue**: Cannot connect to the database.
   - Ensure the MySQL server is running.
@@ -160,7 +176,7 @@ INSERT INTO discount_codes (code, discount_percent, active) VALUES
 
 ---
 
-## **8. Notes**
+## *9. Notes**
 
 - Use **phpMyAdmin**, **MySQL Workbench**, or any preferred MySQL GUI to manage the database visually.
 - For production, ensure proper security measures, such as hashing passwords.
@@ -168,3 +184,7 @@ INSERT INTO discount_codes (code, discount_percent, active) VALUES
 ---
 
 ### Enjoy building your Coffee Order App! ☕
+
+
+
+
