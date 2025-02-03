@@ -73,8 +73,8 @@ The app connects to a MySQL database where products, invoices, and discount code
    > Insert some default users:
    ```sql
    INSERT INTO users (username, password, role) VALUES
-     ('admin', 'admin', 'ADMIN'),
-     ('cashier', 'cashier', 'CASHIER');
+     ('admin', 'admin123', 'ADMIN'),
+     ('cashier', 'cashier123', 'CASHIER');
    ```
 
 2. **products**  
@@ -192,11 +192,11 @@ You may need to modify or ensure this directory is created at runtime. The code 
 
 2. Compile the application (assuming your system has `javac`, `java` on PATH):
    ```bash
-   javac --module-path "<PATH_TO_FX_LIB>" --add-modules javafx.controls,javafx.fxml src/apps/CoffeeOrderApp.java
+   javac --module-path "<PATH_TO_FX_LIB>" --add-modules javafx.controls,javafx.fxml src/App/CoffeeOrderApp.java
    ```
 3. Run the compiled application:
    ```bash
-   java --module-path "<PATH_TO_FX_LIB>" --add-modules javafx.controls,javafx.fxml apps.CoffeeOrderApp
+   java --module-path "<PATH_TO_FX_LIB>" --add-modules javafx.controls,javafx.fxml App.CoffeeOrderApp
    ```
 
 ---
@@ -204,8 +204,8 @@ You may need to modify or ensure this directory is created at runtime. The code 
 ## 7. Usage
 
 1. **Login** with credentials set in your `users` table.  
-   - For instance, `username: admin`, `password: admin` => Admin user.  
-   - `username: cashier`, `password: cashier` => Cashier user.
+   - For instance, `username: admin`, `password: admin123` => Admin user.  
+   - `username: cashier`, `password: cashier123` => Cashier user.
 
 2. **Admin Role**  
    - See admin sidebar on the left: Inventory, Manage Discounts, Reports.
