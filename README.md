@@ -1,4 +1,4 @@
-**README: CoffeeOrderApp (A JavaFX-Based Coffee Ordering System)**
+***CoffeeOrderApp (A JavaFX-Based Coffee Ordering System)***
 
 ---
 
