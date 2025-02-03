@@ -176,7 +176,7 @@ INSERT INTO discount_codes (code, discount_percent, active) VALUES
 
 ---
 
-## **9. Notes **
+## **9. Notes**
 
 - Use **phpMyAdmin**, **MySQL Workbench**, or any preferred MySQL GUI to manage the database visually.
 - For production, ensure proper security measures, such as hashing passwords.
