@@ -160,35 +160,35 @@ Adapt `url`, `user`, and `password` to match your local environment.
 ## 5. Directory & Resource Structure
 
 ```
-CoffeeOrderApp/
-  ├── build/
-  │    └── classes/
-  │         └── App/
-  │              ├── images/
-  │              │    ├── espresso.png
-  │              │    ├── cappuccino.png
-  │              │    ├── cheesecake.png
-  │              │    ├── americano.png
-  │              │    ├── flatwhite.png
-  │              │    ├── latte.png
-  │              │    ├── matcha.png
-  │              │    ├── v60.png
-  │              │    └── default.png
-  │              └── coffee_style.css
-  ├── src/
-  │    ├── AppUser.java
-  │    ├── Category.java
-  │    ├── CoffeeOrderApp.java
-  │    ├── CompletedInvoice.java
-  │    ├── DailySale.java
-  │    ├── DiscountCode.java
-  │    ├── LowStockItem.java
-  │    ├── Product.java
-  │    ├── Role.java
-  │    ├── TopProduct.java
-  │    └── README.md
+📦 CoffeeOrderApp/
+  ├── 📂 build/
+  │    └── 📂 classes/
+  │         └── 📂 App/
+  │              ├── 🖼️ images/
+  │              │    ├── 🖼️ espresso.png
+  │              │    ├── 🖼️ cappuccino.png
+  │              │    ├── 🖼️ cheesecake.png
+  │              │    ├── 🖼️ americano.png
+  │              │    ├── 🖼️ flatwhite.png
+  │              │    ├── 🖼️ latte.png
+  │              │    ├── 🖼️ matcha.png
+  │              │    ├── 🖼️ v60.png
+  │              │    └── 🖼️ default.png
+  │              └── 🎨 coffee_style.css
+  ├── 📂 src/
+  │    ├── 📄 AppUser.java
+  │    ├── 📄 Category.java
+  │    ├── 📄 CoffeeOrderApp.java
+  │    ├── 📄 CompletedInvoice.java
+  │    ├── 📄 DailySale.java
+  │    ├── 📄 DiscountCode.java
+  │    ├── 📄 LowStockItem.java
+  │    ├── 📄 Product.java
+  │    ├── 📄 Role.java
+  │    ├── 📄 TopProduct.java
+  │    └── 📄 README.md
   │
-  └── README.md
+  └── 📄 README.md
 ```
 
 In the code, we use a constant path for images:
